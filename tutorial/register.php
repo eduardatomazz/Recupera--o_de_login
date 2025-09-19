@@ -32,7 +32,7 @@
            }
            else{
 
-            mysqli_query($con, "INSERT INTO users(Username,Email,Age,Password) VALUES('$username', '$email', '$age', '$password')") or die("Error Occured");
+            mysqli_query($con, "INSERT INTO users(Username,Email,Age,Password) VALUES('$username', '$email', '$age', '$password')") or die("Erroe Occured");
 
             echo "<div calss='message'>
                         <p>Registration successfully!</p>
@@ -63,11 +63,11 @@
 
                   <div class="field input">
                     <label for="password">Password</label>
-                    <input type="text" name="password" id="password" autocomplete="off" required>
+                    <input type="password" name="password" id="password" autocomplete="off" required>
                 </div>
 
                   <div class="field">
-                    <input type="submit" class="btn" name="submit" value="Login" required>
+                    <input type="submit" class="btn" name="submit" value="Register" required>
                 </div>
                 <div class="links">
                     Already a member? <a href="index.php">Sing In</a>
