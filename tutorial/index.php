@@ -4,26 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Register</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="container">
         <div class="box form-box">
-            <header>Sing Up</header>
+            <header>Login</header>
             <form action="" method="post">
                 <div class="field input">
                     <label for="username">Username</label>
                     <input type="text" name="username" id="username" autocomplete="off" required>
-                </div>
-
-                 <div class="field input">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" autocomplete="off" required>
-                </div>
-
-                 <div class="field input">
-                    <label for="age">Age</label>
-                    <input type="number" name="age" id="age" autocomplete="off" required>
                 </div>
 
                   <div class="field input">
@@ -32,10 +22,10 @@
                 </div>
 
                   <div class="field">
-                    <input type="submit" class="btn" name="submit" value="Login" required>
+                    <input type="submit" class="btn" name="submit" value="Login" autocomplete="off" required>
                 </div>
                 <div class="links">
-                    Already a member? <a href="index.html">Sing In</a>
+                    Don't have account? <a href="register.php">Sing Up Now</a>
                 </div>
             </form>
         </div>
